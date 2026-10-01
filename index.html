@@ -64,6 +64,11 @@
   .section-head p{margin-top:14px;color:#6b5a52;font-weight:300;line-height:1.7;}
 
   .services{background:var(--sand);}
+  .why-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:26px;max-width:1150px;margin:0 auto;}
+  .why-card{background:var(--sand);padding:36px 28px;border-radius:18px;text-align:center;}
+  .why-card .icon{width:56px;height:56px;border-radius:50%;margin:0 auto 18px;background:var(--cream);display:flex;align-items:center;justify-content:center;color:var(--rose-dark);}
+  .why-card h3{font-size:1.05rem;margin-bottom:10px;}
+  .why-card p{font-size:.85rem;color:#8a7a71;line-height:1.6;font-weight:300;}
   .services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:26px;max-width:1150px;margin:0 auto;}
   .service-card{background:var(--cream);padding:40px 30px;border-radius:18px;text-align:center;box-shadow:0 20px 45px -28px rgba(58,45,41,.2);}
   .service-icon{width:64px;height:64px;border-radius:50%;margin:0 auto 20px;background:var(--sand);display:flex;align-items:center;justify-content:center;color:var(--rose-dark);}
@@ -121,6 +126,7 @@
       <li><a href="#inicio">Inicio</a></li>
       <li><a href="#servicios">Servicios</a></li>
       <li><a href="#galeria">Galería</a></li>
+      <li><a href="#historia">Nosotros</a></li>
       <li><a href="#contacto">Contacto</a></li>
     </ul>
   </nav>
@@ -137,7 +143,7 @@
       <a href="https://wa.me/34608610087?text=Hola%2C%20quiero%20reservar%20una%20cita%20en%20Laura%20Cicu%C3%A9ndez%20Brows" class="btn" target="_blank" rel="noopener">Reservar por WhatsApp →</a>
     </div>
     <div class="hero-img">
-      <img src="https://images.unsplash.com/photo-1583001931096-959e9a1a6223?auto=format&fit=crop&w=800&q=80" alt="Micropigmentación de cejas">
+      <img src="laura2.jpg" alt="Resultado de micropigmentación de cejas">
     </div>
   </div>
 </section>
@@ -173,13 +179,42 @@
   </div>
   <div class="gallery">
     <figure>
-      <img src="https://images.unsplash.com/photo-1583001809873-95c8f8e63e05?auto=format&fit=crop&w=900&q=80" alt="Diseño de cejas profesional">
-      <figcaption>Diseño de cejas a medida</figcaption>
+      <img src="https://images.unsplash.com/photo-1581003250898-36050e78fcd3?auto=format&fit=crop&w=900&q=80" alt="Procedimiento de micropigmentación de cejas">
+      <figcaption>Proceso de micropigmentación</figcaption>
     </figure>
     <figure>
-      <img src="https://images.unsplash.com/photo-1620331311520-246422fd82f9?auto=format&fit=crop&w=900&q=80" alt="Espacio de tratamientos de belleza">
-      <figcaption>Un espacio pensado para ti</figcaption>
+      <img src="laura3.jpg" alt="Diseño de cejas natural bien definido">
+      <figcaption>Resultado natural y definido</figcaption>
     </figure>
+  </div>
+</section>
+
+<section class="services">
+  <div class="section-head">
+    <span class="eyebrow">Por qué elegirnos</span>
+    <h2>Confianza y detalle</h2>
+  </div>
+  <div class="why-grid">
+    <div class="why-card">
+      <div class="icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg></div>
+      <h3>Técnica certificada</h3>
+      <p>Micropigmentación realizada con materiales seguros y de calidad.</p>
+    </div>
+    <div class="why-card">
+      <div class="icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2l3 7 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1z"/></svg></div>
+      <h3>Diseño 100% personalizado</h3>
+      <p>Estudiamos tu rostro para un resultado natural y único.</p>
+    </div>
+    <div class="why-card">
+      <div class="icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
+      <h3>Resultado duradero</h3>
+      <p>Un acabado que te acompaña durante mucho tiempo.</p>
+    </div>
+    <div class="why-card">
+      <div class="icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+      <h3>En Alcobendas</h3>
+      <p>Fácil acceso, en P.º de la Chopera.</p>
+    </div>
   </div>
 </section>
 
